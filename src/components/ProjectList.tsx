@@ -44,7 +44,7 @@ export const ProjectList: React.FC<Props> = ({ label, projects }) => {
           <a
             key={index}
             className={classNames(
-              "relative flex flex-col items-center justify-center gap-4 p-4 h-36 bg-secondary rounded-md",
+              "relative flex flex-col items-center justify-center gap-4 p-4 h-36 bg-secondary rounded-md shadow-lg shadow-[#ffffff20]",
               {
                 "cursor-default": project.comingSoon,
               }
