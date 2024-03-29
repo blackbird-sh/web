@@ -36,7 +36,7 @@ export default function Home() {
               {
                 name: "IP BLACKLIST",
                 description: "A blacklist of all known malicious IPs.",
-                url: "https://ipbl.blackbird.sh",
+                // url: "https://ipbl.blackbird.sh",
                 img: "/images/ipbl.svg",
                 comingSoon: true,
                 releaseDate: new Date("2024-03-31T16:00:00"), // specify timezone to avoid issues - 2024 03 31 12:00:00 UTC
@@ -45,7 +45,7 @@ export default function Home() {
                 name: "DISCORD PROTECTION",
                 description:
                   "Protect your Discord server from malicious users.",
-                url: "https://discord.blackbird.sh",
+                // url: "https://discord.blackbird.sh",
                 img: "/images/discord-protection.svg",
                 comingSoon: true,
               },
