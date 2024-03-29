@@ -12,7 +12,7 @@ export default function Home() {
       </nav>
 
       <section className="flex flex-col gap-4 w-[1200px] max-w-full justify-center items-center">
-        <div className="flex flex-col gap-4 w-full justify-center items-center py-16">
+        <div className="flex flex-col gap-4 w-full justify-center items-center py-16 text-center">
           <div className="font-black text-4xl">WE SECURE THE WORLD</div>
           <div className="font-black text-xl opacity-50">
             WE ARE NOT ABOVE ANYTHING
@@ -39,6 +39,7 @@ export default function Home() {
                 url: "https://ipbl.blackbird.sh",
                 img: "/images/ipbl.svg",
                 comingSoon: true,
+                releaseDate: new Date("2024-03-31T16:00:00"), // specify timezone to avoid issues - 2024 03 31 12:00:00 UTC
               },
               {
                 name: "DISCORD PROTECTION",
