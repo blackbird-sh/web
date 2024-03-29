@@ -49,7 +49,7 @@ export const ProjectList: React.FC<Props> = ({ label, projects }) => {
                 "cursor-default": project.comingSoon,
               }
             )}
-            href={project.url || undefined}
+            href={(!project.comingSoon && project.url) || undefined}
             target={project.url ? "_blank" : undefined}
           >
             {project.img && (
