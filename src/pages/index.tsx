@@ -24,9 +24,8 @@ export default function Home() {
           <div className="flex flex-col">
             <span className="font-black text-3xl">OUR PROJECTS</span>
             <span className="opacity-50">
-              We have charged ourselves with the duty of securing the whole wide
-              world. We are extremely fast, extremely ambitious and extremely
-              focused.
+              We have charged ourselves with the duty of securing the whole
+              world.
             </span>
           </div>
 
@@ -104,6 +103,10 @@ export default function Home() {
           />
         </div>
       </section>
+
+      <div className="opacity-50 text-xs mt-40 font-bold">
+        fast, ambitious and focused.
+      </div>
     </main>
   );
 }
